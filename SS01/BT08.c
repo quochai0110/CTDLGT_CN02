@@ -3,7 +3,7 @@
 //
 
 #include <stdio.h>
-void main(void) {
+void main() {
     // KHAI BAO MANG BAT KI
     int arr[]= {1,2,3,4,5,3,3,4,5,6,7,8,9,10};
     int size = sizeof(arr)/sizeof(arr[0]);
