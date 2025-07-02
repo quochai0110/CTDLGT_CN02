@@ -10,7 +10,7 @@ int findMax(int arr[], int size, int i) {
     int max = findMax(arr, size, i+1);
     // 2. ham gọi đệ quy
         return (arr[i]>max?arr[i]:max);
-    
+
 }
 int main() {
     int n;
