@@ -1,0 +1,6 @@
+// CHO NGƯỜI DÙNG NHẬP VÀO 1 MẢNG BẤT KÌ
+// HIỂN THỊ PHẦN TỬ CÓ SỐ LẦN XUẤT HIỆN NHIỀU NHẤT TRONG MẢNG
+// NẾU CÓ TRÊN 2 PHẦN TỬ CÓ CÙNG SO LẦN XUẤT HIỆN, HIỂN THỊ PHẦN TỬ NHỎ NHẤT
+// INPUT : [2,5,7,2,5,9,11]
+// OUTPUT: 2
+

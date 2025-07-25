@@ -27,24 +27,25 @@ void addEgde (int u, int v) {
 void printMatrix (int n) {
     for (int i = 0; i < n; i++) {
         Node* temp = adjacentNode[i];
+        printf("%d ", temp->vertex);
         while (temp != NULL) {
             printf("%d ", temp->vertex);
             temp = temp->next;
         }
+        printf("\n");
     }
 }
-
 
 int main() {
     int n,u,v;
     printf("Enter the number of vertices: ");
     scanf("%d", &n);
+    printf("\n");
     for (int i = 0; i < 6; i++) {
         printf("nhap gia tri canh lien ket: ");
         scanf("%d %d", &u,&v);
-
+        addEgde(u, v);
     }
     printf("\n");
     printMatrix(n);
-
 }

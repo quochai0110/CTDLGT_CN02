@@ -2,10 +2,7 @@
 #include <stdlib.h>
 
 #define MAX 100
-typedef  struct Student {
-    int id;
-    char name[100];
-}Student;
+
 typedef struct Node {
     int  vertex; // giá trị của đỉnh
     struct Node* next;
@@ -36,6 +33,7 @@ void addEdge(int u, int v) {
 }
 
 void dfs(int u, int depth) {
+    // u la cac dang xet , depth so luong dinh
     visited[u] = 1;
 
     for (int i = 0; i < depth; i++) printf("  ");
